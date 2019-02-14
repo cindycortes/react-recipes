@@ -1,0 +1,25 @@
+  Index.html file:
+  
+  <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans" rel="stylesheet">
+    
+
+Google Fonts in CSS file: 
+    cssfont-family: 'Open Sans', sans-serif;
+    font-family: 'Courgette', cursive;  
+
+    Within the App.css file: 
+
+    body {
+        font-family: 'Open Sans', sans-serif !important;
+    }
+    .text-slanted {
+
+        font-family: 'Courgette', cursive;
+    }
