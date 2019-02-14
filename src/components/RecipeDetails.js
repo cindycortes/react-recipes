@@ -43,10 +43,10 @@ class RecipeDetails extends Component {
 
 
     render() {
-        // console.log(this.state.recipe);
+        console.log(this.state.recipe);
         const { image_url, publisher, publisher_url, source_url, title, ingredients } = this.state.recipe;
         const {handleIndex} = this.props;
-
+        console.log(this.state.recipe.ingredients);
         return (
             <React.Fragment>
                 <div className="container">

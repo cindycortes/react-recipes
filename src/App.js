@@ -22,7 +22,7 @@ class App extends Component {
     try {
       const data = await fetch(this.state.url); // first get the data
       const jsonData = await data.json(); // json data
-      console.log(jsonData);
+      // console.log(jsonData);
       if (jsonData.recipes.length === 0) {
         this.setState(() => {
           return { error: 'sorry, but your search did not return any results' }
@@ -30,7 +30,7 @@ class App extends Component {
       }
       else {
         this.setState(() => {
-          return { recipes: jsonData.recipes }
+          return { recipes: jsonData.recipes, error:"" }
         })
       }
 
@@ -87,7 +87,7 @@ class App extends Component {
   }
 
   render() {
-    // console.log(this.state.recipes);
+    console.log(this.state.recipes);
 
     return <React.Fragment>
 
